@@ -22,6 +22,7 @@
 		540A215A1EC0402C009942CA /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8793E798180C2ABE005D7A66 /* libssl.a */; };
 		540A215B1EC04033009942CA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AF3D3317A8059900D2E836 /* StoreKit.framework */; };
 		540A215C1EC0413B009942CA /* RMStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A0AF3D1017A802F300D2E836 /* RMStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7255CAFB1F505F3C0016F7BB /* RMAppReceipt.h in Headers */ = {isa = PBXBuildFile; fileRef = 8793E800180D512E005D7A66 /* RMAppReceipt.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8700D1C117DCA548005C8F5D /* NSNotification+RMStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8700D1C017DCA548005C8F5D /* NSNotification+RMStoreTests.m */; };
 		8700D1D717DCB011005C8F5D /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8700D1D617DCB011005C8F5D /* libOCMock.a */; };
 		876046491812FB7500C9B78C /* RMStoreKeychainPersistence.m in Sources */ = {isa = PBXBuildFile; fileRef = 876046481812FB7500C9B78C /* RMStoreKeychainPersistence.m */; };
@@ -459,6 +460,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				540A215C1EC0413B009942CA /* RMStore.h in Headers */,
+				7255CAFB1F505F3C0016F7BB /* RMAppReceipt.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1138,6 +1140,7 @@
 				540A214C1EC03FF5009942CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		540A21511EC03FF5009942CA /* Build configuration list for PBXNativeTarget "RMStore iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1146,6 +1149,7 @@
 				540A214E1EC03FF5009942CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A0AF3D0317A802F300D2E836 /* Build configuration list for PBXProject "RMStore" */ = {
 			isa = XCConfigurationList;

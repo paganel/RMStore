@@ -21,6 +21,8 @@
 #import <Foundation/Foundation.h>
 #import <StoreKit/StoreKit.h>
 
+#import "RMAppReceipt.h"
+
 @protocol RMStoreContentDownloader;
 @protocol RMStoreReceiptVerifier;
 @protocol RMStoreTransactionPersistor;
