@@ -44,7 +44,9 @@
 { SKIP_IF_VERSION(NSFoundationVersionNumber_iOS_6_1)
     NSData *data = [NSData data];
     _receipt = [[RMAppReceipt alloc] initWithASN1Data:data];
-    BOOL result = [_receipt containsActiveAutoRenewableSubscriptionOfProductIdentifier:@"test" forDate:[NSDate date]];
+    BOOL result = [_receipt containsActiveAutoRenewableSubscriptionOfProductIdentifier:@"test"
+                                                                               forDate:[NSDate date]
+                                                                        expirationDate: nil];
     XCTAssertFalse(result, @"");
 }
 

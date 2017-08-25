@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54B2E9F21EC03A300032C9F4"
-               BuildableName = "RMStore iOS.framework"
+               BlueprintIdentifier = "540A21331EC03FF4009942CA"
+               BuildableName = "RMStore.framework"
                BlueprintName = "RMStore iOS"
                ReferencedContainer = "container:RMStore.xcodeproj">
             </BuildableReference>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,8 +47,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54B2E9F21EC03A300032C9F4"
-            BuildableName = "RMStore iOS.framework"
+            BlueprintIdentifier = "540A21331EC03FF4009942CA"
+            BuildableName = "RMStore.framework"
             BlueprintName = "RMStore iOS"
             ReferencedContainer = "container:RMStore.xcodeproj">
          </BuildableReference>
@@ -63,8 +65,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "54B2E9F21EC03A300032C9F4"
-            BuildableName = "RMStore iOS.framework"
+            BlueprintIdentifier = "540A21331EC03FF4009942CA"
+            BuildableName = "RMStore.framework"
             BlueprintName = "RMStore iOS"
             ReferencedContainer = "container:RMStore.xcodeproj">
          </BuildableReference>

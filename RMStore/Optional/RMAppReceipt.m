@@ -160,7 +160,9 @@ static NSURL *_appleRootCertificateURL = nil;
     return NO;
 }
 
--(BOOL)containsActiveAutoRenewableSubscriptionOfProductIdentifier:(NSString *)productIdentifier forDate:(NSDate *)date
+-(BOOL)containsActiveAutoRenewableSubscriptionOfProductIdentifier: (NSString *)productIdentifier
+                                                          forDate: (NSDate *)date
+                                                   expirationDate: (NSDate**) expirationDate
 {
     RMAppReceiptIAP *lastTransaction = nil;
     
@@ -173,8 +175,15 @@ static NSURL *_appleRootCertificateURL = nil;
             lastTransaction = iap;
         }
     }
+
+    BOOL containsActive = [lastTransaction isActiveAutoRenewableSubscriptionForDate:date];
     
-    return [lastTransaction isActiveAutoRenewableSubscriptionForDate:date];
+    if(containsActive && nil != expirationDate)
+    {
+        *expirationDate = [lastTransaction subscriptionExpirationDate];
+    }
+
+    return containsActive;
 }
 
 - (BOOL)verifyReceiptHash
